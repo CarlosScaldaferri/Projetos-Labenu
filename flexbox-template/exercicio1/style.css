@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;    
+    align-items: center;
+    height: 5vh;
+}
+
+.main{
+    background-color: blue;
+    flex-grow: 1;
+    height: 90vh;       
+    display: flex;
+}
+
+.footer{
+    background-color: brown;
+    height: 5vh;
+}
+
+.asdEsquerda{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.rtclMain{
+    border: 1px solid black;
+    flex-grow: 2;
+}
+.asdDireita{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.dvTeste{
+    
+}
+

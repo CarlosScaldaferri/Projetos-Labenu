@@ -1,0 +1,50 @@
+#main{
+    font-family: 'Helvetica';
+    line-height: 1px;
+}
+
+#bloco-1{
+    flex-direction: column;
+    border-style: solid;
+    background-color: coral;
+    border-color: orange;
+    border-width: 3px;
+    width: 160px;
+    height: 35px;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#bloco-2{
+    border-style: solid;
+    background-color: green;
+    border-color: chartreuse;
+    border-width: 3px;
+    width: 160px;
+    height: 35px;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#bloco-3{
+    border-style: dashed;    
+    background-color: darkgreen;
+    border-color: chartreuse;
+    border-width: 3px;
+    width: 160px;
+    height: 35px;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#bloco-4{
+    border-style: dashed;    
+    background-color: chocolate;
+    border-color: coral;
+    border-width: 3px;
+    width: 160px;
+    height: 35px;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}

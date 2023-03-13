@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dvContainer {
+  display: flex;
+  width: 440px;
+  height: 260px;
+  align-items: flex-end;
+}
+.dvFundo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 440px;
+  height: 210px;
+  left: 0px;
+  top: 0px;  
+  background: #729F92;
+  border-radius: 12px;    
+  background-image: url("./imagens/Pokebola.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.dvImgContainer {
+  position: absolute;
+  top: 0;
+  left: 230px;  
+}
+
+.btnCapturar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  width: 146px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 8px;  
+  margin-left: 20px;
+}
+
+.pPokemonNumero {
+  width: 30px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;  
+}
+
+.pPokemonNome {
+  width: 159px;
+  height: 39px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;  
+}
+
+.pDetalhes {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #FFFFFF; 
+  padding-top: 50px;
+}
+
